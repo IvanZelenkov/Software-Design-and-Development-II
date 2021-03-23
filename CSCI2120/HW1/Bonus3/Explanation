@@ -1,0 +1,19 @@
+Question Bonus 3:
+If you made ComplexNumber a supertype to RealNumber in Bonus 2,
+above, while this makes perfect sense within the context of
+ease-of-programming, and an inheritance hierarchy, are there
+any drawbacks to doing it this way, from a practical perspective?
+
+In this solution, which I used according to Bonus 2, I believe that
+in this case for this problem the real number is a complex number and
+it is not correct to derive the real number from the complex,
+because it violates the Liskov Substitution Principle(LSP), which
+says that the derived class is not should hide the properties of
+the base class. Subclasses should override base class methods so that
+functionality is not broken from the client's point of view. I implemented
+this in my code. In the case of this assignment, it makes no sense
+to implement the real as a complex number, where the imaginary part is
+set to zero. This is exactly the case when inheritance confuses us,
+while the inheritance of interfaces would be good here, the inheritance
+of implementation would lead to incorrect and illiterate design.
+
