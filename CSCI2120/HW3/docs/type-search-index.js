@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Recursion"},{"p":"<Unnamed>","l":"RecursionTest"}];updateSearchResults();
