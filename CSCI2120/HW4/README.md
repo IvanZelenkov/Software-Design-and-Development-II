@@ -1,7 +1,7 @@
-#HW4
+# HW4
 HW4 Project
 
-###Content
+### Content
 - HW4
     - code
         - Dog.java
@@ -18,13 +18,13 @@ HW4 Project
     - docs
         - JavaDoc files
 
-###Description
+### Description
 For this assignment I will write an implementation of a doubly linked list and an iterator class for that list.
 An Iterator is an object that "holds" a place in a data structure and can be moved around stepwise through the data
 structure. In order for us to get a better feel for this type of an object, which is ubiquitous in more complex data
 structures, I will be implementing an iterator for a fairly simple data structure, a doubly-linked list.
 
-###Instructions and Installations
+### Instructions and Installations
 >How to run the test for the project:
 
 You should have already these files at the machine you're doing development on:
@@ -65,8 +65,8 @@ Next,
 2. Find file index.html with extension `.html`
 3. Next, you should be able to see the HTML page in your browser which shows all hierarchy and description of my project.
 
-###Support
+### Support
 *idzelenk@uno.edu*
 
-###Author
+### Author
 *Ivan Zelenkov*
